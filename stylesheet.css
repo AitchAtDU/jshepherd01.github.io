@@ -12,6 +12,7 @@ body {
 .carousel-caption {
     bottom: 3rem;
     z-index: 10;
+    color: inherit;
 }
 
 .carousel-item {
@@ -21,10 +22,15 @@ body {
 .carousel-item > img {
     position: absolute;
     top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 32rem;
-    max-height: 1000px;
+    left: 50%;
+    max-width: 100%;
+    max-height: 32rem;
+
+    /* cross-browser compatibility */
+    -ms-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
 .text-left, .text-right {
@@ -51,14 +57,17 @@ h2 {
 /* Individual Carousel Slides */
 #carousel1 {
     color: white;
+    background-color: #ff59ff;
 }
 
 #carousel2{
     color: #3D5E8C;
+    background-color: #90afff;
 }
 
 #carousel3 {
     color: white;
+    background-color: #4e4e4e;
 }
 
 /* Three small sections */
