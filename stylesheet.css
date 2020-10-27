@@ -27,6 +27,16 @@ body {
     max-height: 1000px;
 }
 
+.text-left, .text-right {
+  min-width: 200px;
+  max-width: 450px;
+}
+
+.text-right {
+  margin-left: auto;
+  margin-right: 0;
+}
+
 h1 {
     font-family: 'Abril Fatface', cursive;
     letter-spacing: 2px;
@@ -40,8 +50,6 @@ h2 {
 
 /* Individual Carousel Slides */
 #carousel1 {
-    min-width: 200px;
-    max-width: 450px;
     color: white;
 }
 
