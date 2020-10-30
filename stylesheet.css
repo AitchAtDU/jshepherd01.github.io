@@ -1,7 +1,7 @@
 body {
-    padding-bottom: 3rem;
     color: #5a5a5a;
     font-family: 'Raleway', sans-serif;
+    background-image: url(mainBackground.png);
 }
 
 /* Carousel General Style For All 3 Slides*/
@@ -86,6 +86,10 @@ h2 {
 .marketing .col-lg-4 {
     margin-bottom: 1.5rem;
     text-align: center;
+    background: white;
+    border: 1px solid #e7e7e8;
+    border-radius: 20px;
+    padding-top: 15px;
   }
   .marketing h2 {
     font-weight: 400;
@@ -99,6 +103,13 @@ h2 {
 h5 {
     font-family: 'Poiret One', cursive;
     font-weight: bold;
+}
+
+.footer-back {
+  background-color: white;
+  width: 100%;
+  border-top: 1px solid #e7e7e8;
+  padding-bottom: 3rem;
 }
 
 /* Non-index pages */
@@ -154,4 +165,16 @@ h5 {
       margin-top: 7rem;
     }
   }
-  
+    /* lg */
+  @media (min-width: 992px) {
+    #col-left {
+      border-radius: 20px 0 0 20px;
+    }
+    #col-mid {
+      border-radius: 0;
+      border-width: 1px 0;
+    }
+    #col-right {
+      border-radius: 0 20px 20px 0;
+    }
+  }
