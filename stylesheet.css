@@ -101,6 +101,34 @@ h5 {
     font-weight: bold;
 }
 
+/* Non-index pages */
+
+.navbar {
+  background-image: url("navbarPhoto.png");
+  background-position: center right;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar a {
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 1px;
+}
+
+.dropdown-menu {
+  background-color: #ff59ff;
+  border-color: white;
+}
+
+.dropdown-item {
+  color: white;
+}
+
   /* RESPONSIVE CSS
   -------------------------------------------------- */
   
